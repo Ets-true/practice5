@@ -13,13 +13,7 @@ public class MovableCircle extends Circle implements Movable {
 
     @Override
     public String toString() {
-        return "MovableCircle{" +
-                "radius=" + radius +
-                ", center=" + center +
-                ", radius=" + radius +
-                ", color='" + color + '\'' +
-                ", filled=" + filled +
-                '}';
+        return "MovableCircle{" + "radius=" + radius + ", center=" + center + ", radius=" + radius + ", color='" + color + '\'' + ", filled=" + filled + '}';
     }
 
     @Override
